@@ -48,4 +48,18 @@ text-shadow:4px 4px 8px blue;
 img:hover{
 box-shadow:5px 10px;
 border:3px dashed yellow;
+moz-opacity:0.4;
+filter:alpha(opacity=40);
+}
+#id1{border-style:dotted;} 
+.mycolour{color:green;}
+
+p.three
+{
+border-style:solid;
+border-color:blue;
+border-width:2px 10px 4px 20px;
+}
+p
+margin:25px 50px 75px 100px;
 }
