@@ -63,3 +63,73 @@ border-width:2px 10px 4px 20px;
 p
 margin:25px 50px 75px 100px;
 }
+
+
+ody {
+background-color:pink;
+}
+#menu::first-line{
+color:#ff0000;
+
+}
+div.a
+{
+background-color:red;
+width:300px;
+margin:auto;
+padding:100px
+border:1px dotted red;
+opacity:0.5;
+}
+
+div.b
+{
+background-color:pink;
+width:300px;
+margin:auto;
+padding:60px
+border:1px dotted red;
+opacity:0.5;
+}
+#grad{background-image:linear-gradient(red,yellow);}
+
+#grad1{background-image:linear-gradient(pink,yellow);}
+
+div.a{
+width:100px;
+height:100px;
+background-color:orange;
+transition:width 2s,height 4s;
+}
+div.a:hover{
+width:500px;
+height:500px;
+}
+
+div.d
+{
+width:100px;
+height:100px;
+background:blue;
+transition:width 2s,height 2s,transform 2s;
+}
+div.d:hover{
+width:400px;
+height:400px;
+transform:rotate(2880deg);
+}
+
+div{
+width:100px;
+height:100px;
+background-color:orange;
+animation-name:example;
+animation-duration:5s;
+}
+@keyframes example{
+from {background-color:red;}
+to {background-color:yellow;}
+}
+
+
+
